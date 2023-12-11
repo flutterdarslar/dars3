@@ -1,5 +1,6 @@
 import 'dart:developer';
 
+import 'package:dars3/dars3/main_page.dart';
 import 'package:dars3/model/model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
@@ -7,8 +8,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
 void main() => runApp(const MaterialApp(
-    // home: MainPage()
-    home: MyApp()));
+    home: MainPage()
+    // home: MyApp(),
+));
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});

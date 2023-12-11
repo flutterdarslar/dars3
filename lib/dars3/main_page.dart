@@ -20,9 +20,11 @@ class MainPage extends StatelessWidget {
               return [
                 SliverToBoxAdapter(
                   child: SizedBox(
+                    height: 300,
                       child: Image.network(
+                        alignment: Alignment.topCenter,
                           fit: BoxFit.cover,
-                          "https://images.uzum.uz/clnd7lnn7c6gg9idqa3g/main_page_banner.jpg")),
+                          "https://uzbazar.husanibragimov.uz/media/ProductVariable/30.jpg")),
                 ),
               ];
             },
@@ -60,7 +62,7 @@ class MainPage extends StatelessWidget {
                         width: 120,
                         child: Image.network(
                             fit: BoxFit.cover,
-                            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818"),
+                            "https://uzbazar.husanibragimov.uz/media/ProductVariable/11.jpeg"),
                       ),
                       Text(
                         index.toString(),
