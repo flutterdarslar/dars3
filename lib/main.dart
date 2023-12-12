@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-import 'package:dars3/dars3/main_page.dart';
 import 'package:dars3/model/model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';

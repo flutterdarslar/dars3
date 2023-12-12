@@ -47,9 +47,9 @@ class MainPage extends StatelessWidget {
                     childAspectRatio: 1),
                 itemCount: 10,
                 itemBuilder: (context, index) => Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                       color: Colors.white,
-                      boxShadow: const [
+                      boxShadow: [
                         BoxShadow(
                             color: Colors.grey, blurRadius: 1, spreadRadius: 1)
                       ]),
